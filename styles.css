@@ -11,7 +11,8 @@
 
 
 body{
-    background: url("./img/background.png");
+    /* Mude para este caminho seguro: */
+    background: url("/img/background.png"); 
 }
 
 .container{
@@ -91,3 +92,4 @@ opacity: 1;
     text-decoration: line-through;
     
 }
+
